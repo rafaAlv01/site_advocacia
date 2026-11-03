@@ -11,19 +11,7 @@
   --f-body:'Hanken Grotesk',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
   --f-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
 }
-/* Tema escuro desativado temporariamente para manter as mesmas cores em todos os aparelhos.
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0B1311; --surface:#121D1A; --surface-2:#1A2926; --ink:#E6EDEA; --muted:#9DB0A9; --line:#263733;
-  --band:#0A1F1B; --band-2:#10302A; --accent-ink:#D8AE63; --focus:#5CC2AC;
-  --btn-bg:#D8AE63; --btn-ink:#1A1406; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.45);
-  color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0B1311; --surface:#121D1A; --surface-2:#1A2926; --ink:#E6EDEA; --muted:#9DB0A9; --line:#263733;
-  --band:#0A1F1B; --band-2:#10302A; --accent-ink:#D8AE63; --focus:#5CC2AC;
-  --btn-bg:#D8AE63; --btn-ink:#1A1406; --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.45);
-  color-scheme:dark}
-*/
-/* #c3cfe2 */
+
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--f-body);-webkit-font-smoothing:antialiased}
